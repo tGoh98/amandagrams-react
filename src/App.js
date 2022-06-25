@@ -3,7 +3,8 @@ import { useState } from 'react'
 import axios from 'axios'
 import Word from './Word.js'
 
-const baseURL = process.env.REACT_APP_LOCAL === "true" ? 'http://localhost:8080' : 'https://amandagrams.ue.r.appspot.com/'
+// Run with: REACT_APP_LOCAL=true npm start
+const baseURL = process.env.REACT_APP_LOCAL === "true" ? 'http://localhost:8000' : 'https://amandagrams-tgoh98.koyeb.app'
 
 function App() {
   const [baseWord, setBaseWord] = useState("DOG")
