@@ -130,11 +130,11 @@ function App() {
     <div>
       <header>
         <h1>
-          Amandagrams: a Banagrams Trainer
+          Amandagrams: a Bananagrams Trainer
         </h1>
         <p>
           Amandagrams is an online trainer designed to help you improve at the 
-          Rice version of Banagrams. Given a starting word, Amandagrams will generate 
+          Rice version of Bananagrams. Given a starting word, Amandagrams will generate 
           all possible words that can be created by adding <i>n</i> letters to the 
           base word. <br />
         </p>
